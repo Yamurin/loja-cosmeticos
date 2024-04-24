@@ -7,6 +7,7 @@
     font-family: var(--fonte-titulo);
     margin: 1.5em;
     display: flex;
+	gap: 2em;
     justify-content: space-between;
     align-items: center;
 }
@@ -26,7 +27,8 @@
     border-radius: 25px;
     padding: 1em 1.3em;
     color: var(--cinza);
-    font-size: 0.9em;
+    font-size: 0.8em;
+	text-wrap: nowrap;
 }
 
 .catalogo {
@@ -34,6 +36,7 @@
     flex-wrap: wrap;
     margin: 0 1em;
     gap: 1em 1.3em;
+	justify-content: center;
 }
 
 .card-produto__imagem {
@@ -43,7 +46,8 @@
     position: absolute;
     filter: var(--sombreado);
     z-index: 2;
-    bottom: 7.3em;
+    bottom: 35%;
+	right: 18%;
 }
 .card-produto {
     position: relative;
@@ -51,9 +55,9 @@
     flex-grow: 1;
     flex-direction: column;
     align-items: center;
-    height: 260px;
+    height: 280px;
     min-width: 140px;
-    background-color: var(--salmao);
+	max-width: 250px;
     border-radius: 25px;
     padding: 1.3em 1em 1em 1em;
     overflow: hidden;
@@ -65,7 +69,7 @@
     font-family: var(--fonte-titulo), sans-serif;
     border-radius: 25px;
     position: absolute;
-    height: 8em;
+    height: 40%;
     width: 100%;
     bottom: 0;
     background-color: var(--branco);
@@ -91,7 +95,8 @@
     color: var(--salmao);
 }
 
-.card-produto__botao {
+.card-produto__botao-comprar {
+	color: var(--branco);
     box-sizing: border-box;
     padding: 0.9em;
     margin: 1em;
@@ -99,6 +104,18 @@
     border-radius: 50px;
     position: absolute;
     right: 0;   
+}
+
+.card-produto__botao-favoritar {
+	color: var(--salmao);
+    box-sizing: border-box;
+    padding: 0.9em;
+    margin: 1.4em;
+    background-color: var(--branco);
+    border-radius: 100px;
+    position: absolute;
+    left: 0;  
+    top: 0;
 }
 
 .container {
