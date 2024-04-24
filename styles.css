@@ -9,21 +9,21 @@
 
 :root {
     --fonte-titulo: 'Poppins';
-    --fonte-texto:'Rubik';
+    --fonte-texto:  'Rubik';
 
     --amarelo-claro: #fcead4;
-    --azul-claro: #bae4fc;
-    --branco: #FFFFFF;
-    --cinza: #a3a3a3;
-    --preto: #0a0706;
-    --laranja: #fe7647;
+    --azul-claro: 	 #bae4fc;
+    --branco: 		 #FFFFFF;
+    --cinza: 		 #a3a3a3;
+    --preto: 		 #0a0706;
+    --laranja: 		 #fe7647;
     --laranja-claro: #ffb17d;
-    --rosa-claro: #ffcdcc;
-    --salmao: #fa5d5d;
-
-    --verde-ciano: #77c4b2;
-    --verde-claro: #aed1be;
-    --cor-icones: #FFFFFF;
+    --rosa-claro:    #ffcdcc;
+    --salmao: 		 #fa5d5d;
+    --verde-ciano:   #77c4b2;
+    --verde-claro:   #aed1be;
+    --cor-icones:    #00000;
+	
     --sombreado: drop-shadow(5px 2px 5px #3d030357);
 }
 
