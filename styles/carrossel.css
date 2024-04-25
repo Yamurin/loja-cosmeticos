@@ -15,10 +15,10 @@
 
 .carrossel__link {
     text-decoration: none;
-    border: 1px solid var(--cinza);
+    border: 1px solid var(--salmao);
     border-radius: 25px;
     padding: 1em 1.2em;
-    color: var(--cinza);
+    color: var(--salmao);
     font-size: 0.9em;
 }
 

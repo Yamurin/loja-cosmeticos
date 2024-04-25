@@ -12,25 +12,21 @@
     --fonte-titulo: 'Poppins';
     --fonte-texto:  'Rubik';
 
-    --amarelo-claro: #fcead4;
-    --azul-claro: 	 #bae4fc;
+    --amarelo-claro: #fbf2ef;;
+    --azul: 	     #2B50AA;
     --branco: 		 #FFFFFF;
     --cinza: 		 #a3a3a3;
-    --preto: 		 #0a0706;
+    --preto: 		 #272727;
     --laranja: 		 #fe7647;
     --laranja-claro: #ffb17d;
-    --rosa-claro:    #ffcdcc;
+    --rosa-claro:    #FFD4D4;
     --salmao: 		 #fa5d5d;
-    --verde-escuro:  #355d59;
-    --verde-ciano:   #77c4b2;
-    --verde-claro:   #aed1be;
-    --cor-icones:    #00000;
+    --cor-icones:    var(--salmao);
 	
     --sombreado: drop-shadow(5px 2px 5px #3d030357);
 }
 
 .laranja    { background-color: var(--laranja-claro); }
-.verde      { background-color: var(--verde-claro); }
 .rosa       { background-color: var(--rosa-claro); }
 .amarelo    { background-color: var(--amarelo-claro); }
 .azul       { background-color: var(--azul-claro); }

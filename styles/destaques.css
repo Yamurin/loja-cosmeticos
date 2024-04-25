@@ -12,7 +12,6 @@
     align-items: center;
 }
 
-/* TODO Subir pro Github, colocar iamgem como backrooun de <a> */
 .destaques__titulo {
     font-family: var(--fonte-titulo), sans-serif;
     padding: 0;
@@ -23,10 +22,10 @@
 
 .destaques__link {
     text-decoration: none;
-    border: 1px solid var(--cinza);
+    border: 1px solid var(--salmao);
     border-radius: 25px;
     padding: 1em 1.3em;
-    color: var(--cinza);
+    color: var(--salmao);
     font-size: 0.8em;
 	text-wrap: nowrap;
 }
@@ -47,7 +46,6 @@
     filter: var(--sombreado);
     z-index: 2;
     bottom: 35%;
-	right: 18%;
 }
 .card-produto {
     position: relative;
@@ -56,10 +54,10 @@
     flex-direction: column;
     align-items: center;
     height: 260px;
-    min-width: 10em;
+    min-width: 12em;
     max-width: 15em;
-    background-color: var(--salmao);
-    border-radius: 25px;
+    background-color: var(--rosa-claro);
+    border-radius: 18px;
     padding: 1.3em 1em 1em 1em;
     overflow: hidden;
 }
@@ -68,7 +66,7 @@
     z-index: 1;
     box-sizing: border-box;
     font-family: var(--fonte-titulo), sans-serif;
-    border-radius: 25px;
+    border-radius: 18px;
     position: absolute;
     height: 40%;
     width: 100%;
@@ -87,13 +85,13 @@
     font-weight: 400;
     font-size: 0.8em;
     margin-top: 0.3em;
-    color: var(--cinza);
+    color: var(--azul);
 }
 
 .card-produto__valor {
     font-weight: 700;
     font-size: 1.4em;
-    color: var(--salmao);
+    color: var( --salmao);
 }
 
 .card-produto__botao-comprar {
@@ -101,7 +99,7 @@
     box-sizing: border-box;
     padding: 0.9em;
     margin: 1em;
-    background-color: var(--salmao);
+    background-color: var( --salmao);
     border-radius: 50px;
     position: absolute;
     right: 0;   
@@ -111,8 +109,8 @@
 	color: var(--salmao);
     box-sizing: border-box;
     padding: 0.9em;
-    margin: 1.4em;
-    background-color: var(--branco);
+    margin: 1em;
+    border: 1px solid var(--salmao);
     border-radius: 100px;
     position: absolute;
     left: 0;  
