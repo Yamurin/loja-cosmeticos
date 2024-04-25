@@ -32,6 +32,7 @@
 }
 
 .swiper-slide {
+    box-sizing: border-box;
     width: 120px;
 }
 
@@ -59,4 +60,16 @@
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .carrossel {
+        margin: 1.5em 4em;
+        align-items: center;
+    }
+
+    .carrossel__cabeçalho {
+        justify-content: left;
+        gap: 1em;
+    }
 }
