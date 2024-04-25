@@ -65,6 +65,7 @@
     border-radius: 18px;
     padding: 1.3em 1em 1em 1em;
     overflow: hidden;
+    filter: drop-shadow(2px 2px 2px #7049494d);
 }
 
 .card-produto__texto {

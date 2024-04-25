@@ -19,6 +19,7 @@
     line-height: 1.2em;
     font-weight: 400;
     flex-direction: column;
+    text-align: left;
     padding-right: 20%;
 }
 .conteudo__titulo {

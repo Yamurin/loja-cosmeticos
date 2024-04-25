@@ -102,6 +102,10 @@
 	background-color: #f2f7f7;
 }
 
+label[for=menu]:hover {
+	cursor: pointer;
+}
+
 .menu__botao:checked ~ .lista-menu {
 	display: inline-block;
 }

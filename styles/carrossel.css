@@ -49,6 +49,11 @@
     font-size: 0.9em;
     color: var(--preto);
     text-align:center;
+    text-decoration: none;
+}
+
+.swiper-slide__titulo:hover {
+    color: var(--vermelho);
 }
 
 .swiper-button-prev,
