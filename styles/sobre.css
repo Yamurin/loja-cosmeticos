@@ -1,0 +1,18 @@
+.sobre {
+    margin: 1.5em 3.5em;
+    font-family: var(--fonte-texto), sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+.sobre__container {
+    margin-top: 1.3em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.sobre__container p {
+    font-weight: 400;
+    margin: 1em 0;
+}

@@ -2,13 +2,16 @@
     overflow: hidden;
     font-family: var(--fonte-texto), sans-serif;
     display: flex;
-    margin: 1.5em 1.3em;
+    margin: 2em 1em;
     border-radius: 25px;
+    max-width: 40em;
+    min-width: 20em;
+    max-height: 300px;
 }
 
 .banner__conteudo {
     display: flex;
-    padding: 1.5em 0.3em 1.5em 1.5em;
+    padding: 2em 0.3em 2em 2em;
 }
 
 .conteudo__texto {
@@ -16,6 +19,7 @@
     line-height: 1.2em;
     font-weight: 400;
     flex-direction: column;
+    padding-right: 20%;
 }
 .conteudo__titulo {
     font-family: var(--fonte-titulo);
@@ -28,15 +32,20 @@
 
 .conteudo__link {
     font-size: 0.9em;
-    background-color: var(--branco);
+    background-color: var(--salmao);
     padding: 0.5em 3em;
     margin-top: 0.8em;
     text-align: center;
     text-decoration: none;
     border-radius: 25px;
-    color: var(--salmao);
+    color: var(--branco);
+    text-transform: uppercase;
+    max-width: 20em;
 }
 
+.conteudo__destaque {
+    text-decoration: underline var(--azul);
+}
 .banner__imagem {
     padding-top: 15px;
     height: 220px;
