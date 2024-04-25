@@ -1,16 +1,18 @@
 .banner__contato {
+    background-color: var(--salmao);
     text-align: center;
     font-family: var(--fonte-texto), sans-serif;
+    color: var(--branco);
     display: flex;
     flex-direction: column;
     margin: 1em 1.5em;
-    padding: 1.5em 2.2em;
+    padding: 1.5em 2.5em;
     border-radius: 25px;
 }
 
 .contato__titulo {
     font-family: var(--fonte-titulo);
-    color: var(--preto);
+    color: var(--branco);
     font-weight: 700;
     font-size: 1.3em;
     margin-bottom: 0.6em;
@@ -19,7 +21,7 @@
 .contato__email {
     text-align: center;
     font-size: 0.9em;
-    color: var(--laranja);
+    color: var(--salmao);
     padding: 1em;
     background-color: var(--branco);
     border: none;
@@ -30,8 +32,8 @@
 
 .contato__email::placeholder {
     opacity: 1;
-    color: var(--laranja);
-    font-size: 1.2em;
+    color: var(--salmao);
+    font-size: 1em;
     font-weight: 400;
     text-indent: 50%;
     text-align: center;
