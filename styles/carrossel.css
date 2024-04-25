@@ -1,3 +1,9 @@
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .carrossel__cabeçalho {
     font-family: var(--fonte-titulo);
     margin: 1.5em;
@@ -75,12 +81,12 @@
     }
 
     .swiper-slide {
-        width: 160px;
+        width: 120px;
     }
 
     .swiper-slide img {
-        height: 160px;
-        width: 160px;
+        height: 120px;
+        width: 120px;
         border-radius: 100px;
         object-fit: cover;
     }
