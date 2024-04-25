@@ -13,11 +13,39 @@
     <script src="https://kit.fontawesome.com/e676755a76.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--Título e pesquisa-->
     <header class="cabeçalho">
-        <h1 class="cabeçalho__titulo">Lira Cosméticos</h1>
+		<!-- Menu Hambúrguer e faixa de Opções-->
+		<div class="container-faixa">
+			<input type="checkbox" class="menu__botao" id="menu">
+			<label for="menu">
+				<i class="fa-solid fa-bars fa-xl menu__icone"></i>
+			</label>
+			
+			<ul class="lista-menu">
+				<li class="lista-menu__titulo">Compras</a></li>
+				<li class="lista-menu__item"><a href="#" class="lista-menu__link">Perfumaria</a></li>
+				<li class="lista-menu__item"><a href="#" class="lista-menu__link">Banho & Corpo</a></li>
+				<li class="lista-menu__item"><a href="#" class="lista-menu__link">Cabelos</a></li>
+				<li class="lista-menu__item"><a href="#" class="lista-menu__link">Maquiagem</a></li>
+				<br>
+				<li class="lista-menu__titulo">Revendedora</a></li>
+				<li class="lista-menu__item"><a href="#" class="lista-menu__link">Portal de Revendas</a></li>
+				<li class="lista-menu__item"><a href="#" class="lista-menu__link">Seja um(a) consultor(a)</a></li>
+			</ul>
+			
+			<div class="faixa-opçoes">
+				<a href="#" class="faixa-opçoes__link"><i class="fa-solid fa-heart fa-xl" alt="Meus favoritos" class="faixa-icone"></i></a>
+				<a href="#" class="faixa-opçoes__link"><i class="fa-solid fa-cart-shopping fa-xl" alt="Carrinho de Compras" class="faixa-icone"></i></a>
+				<a href="#" class="faixa-opçoes__link"><i class="fa-solid fa-user fa-xl" alt="Meu perfil" class="faixa-icone"></i></a>
+			</div>
+		</div>
+		
+		
+		<!-- Título e Pesquisa -->
+		<h1 class="cabeçalho__titulo">Lira Cosméticos</h1>
         <input type="search" class="cabeçalho__pesquisa" placeholder="Pesquisar produto"> 
     </header>
+
     
     <!--Categorias-->
     <section class="carrossel">
@@ -83,19 +111,22 @@
             </a>
         </div>
         <div class="catalogo">
+		
             <div class="card-produto laranja">
+				<a href="#" class="card-produto__botao-favoritar"><i class="fa-regular fa-heart fa-xl"></i></a>
                 <img src="img/celebre.png" class="card-produto__imagem" alt="Colônia Celebre">
                 <div class="card-produto__texto">
                     <h2 class="card-produto__titulo">Colônia Celebre</h2>
                     <p class="card-produto__subtitulo">Frutas Vermelhas</p>
                     <div class="container">
                         <p class="card-produto__valor">R$40</p>
-                        <a class="card-produto__botao"><i class="fa-solid fa-basket-shopping" style="color: #ffffff;"></i></a>
-                    </div>
+                        <a class="card-produto__botao-comprar "><i class="fa-solid fa-basket-shopping"></i></a>
+					</div>
                 </div>
             </div>
 
             <div class="card-produto azul">
+				<a href="#" class="card-produto__botao-favoritar"><i class="fa-regular fa-heart fa-xl"></i></a>
                 <img src="img/cuide-se-coco.png" class="card-produto__imagem" alt="Creme Cuide-se Bem Coco">
                 <div class="card-produto__texto">
                     <h2 class="card-produto__titulo">Loção Cuide-se Bem</h2>
@@ -109,6 +140,7 @@
 
             
             <div class="card-produto verde">
+				<a href="#" class="card-produto__botao-favoritar"><i class="fa-regular fa-heart fa-xl"></i></a>
                 <img src="img/cuide-se-bem-maca.png" class="card-produto__imagem" alt="Shampoo Cuide-se Bem Vinagre de Maçã">
                 <div class="card-produto__texto">
                     <h2 class="card-produto__titulo">Shampoo Cuide-se Bem</h2>
@@ -121,6 +153,7 @@
             </div>
 
             <div class="card-produto rosa">
+				<a href="#" class="card-produto__botao-favoritar"><i class="fa-regular fa-heart fa-xl"></i></a>
                 <img src="img/liz.png" class="card-produto__imagem" alt="Colônia Liz">
                 <div class="card-produto__texto">
                     <h2 class="card-produto__titulo">Colônia Liz</h2>
