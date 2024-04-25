@@ -69,7 +69,23 @@
     }
 
     .carrossel__cabeçalho {
+        font-size: 1.2em;
         justify-content: left;
         gap: 1em;
+    }
+
+    .swiper-slide {
+        width: 160px;
+    }
+
+    .swiper-slide img {
+        height: 160px;
+        width: 160px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+
+    .swiper-slide__titulo {
+        font-size: 1.1em;
     }
 }

@@ -133,3 +133,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (min-width:1024px) {
+    .destaques__cabeçalho {
+        font-size: 1.2em;
+        justify-content: left;
+        gap: 1em;
+    }
+}

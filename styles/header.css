@@ -150,6 +150,9 @@ label[for=menu]:hover {
 		display: block;
 	}
 
+	.lista-menu {
+		display: none;
+	}
 
 	label[for="menu"] {
 		display: none;
