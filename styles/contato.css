@@ -26,8 +26,8 @@
     background-color: var(--branco);
     border: none;
     border-radius: 25px;
-    width: 90%;
-    margin: 1em 0 1em 0.3em;
+    width: 80%;
+    margin: 1em auto;
 }
 
 .contato__email::placeholder {
