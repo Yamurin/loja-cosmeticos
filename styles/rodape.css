@@ -1,0 +1,35 @@
+.rodape {
+    border-top: 1px solid rgb(194, 194, 194);
+}
+
+.rodape__container {
+    display: flex;
+    gap: 1.3em;
+    padding: 1em;
+}
+
+.rodape__links {
+    flex-grow: 1;
+    font-size: 0.8em;
+    font-family: var(--fonte-texto);
+}
+
+.rodape__titulo {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.2em
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--preto);
+    line-height: 190%;
+}
+
+.rodape h1 {
+    font-family: var(--fonte-texto);
+    text-align: center;
+    font-size: 1em;
+    margin: 1em 0;
+    font-weight: 700;
+}

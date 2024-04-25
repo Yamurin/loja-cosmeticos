@@ -1,6 +1,6 @@
 
 .cabeçalho {
-    background-color: var(--amarelo-claro);
+    background-color: #e5ebea;
 }
 
 .cabeçalho__titulo {
@@ -15,7 +15,7 @@
     color: var(--branco);
     font-family: sans-serif;
     padding: 1em;
-    background-color: var(--laranja);
+    background-color:var (--verde-escuro);
     border: none;
     border-radius: 25px;
     width: 90%;
@@ -46,6 +46,7 @@
 	margin: 0 0.7em;
 	text-decoration: none;
 	color: var(--cor-icones);
+	font-size: 0.8em;
 }
 
 /* MENU HAMBÚRGUER */
