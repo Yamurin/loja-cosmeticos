@@ -30,6 +30,11 @@
 	text-wrap: nowrap;
 }
 
+.destaques__link:hover {
+    color: var(--azul);
+    border: 1px solid var(--azul);
+}
+
 .catalogo {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +108,10 @@
     border-radius: 50px;
     position: absolute;
     right: 0;   
+}
+
+.card-produto__botao-comprar:hover {
+    background-color: #d14b4b;
 }
 
 .card-produto__botao-favoritar {

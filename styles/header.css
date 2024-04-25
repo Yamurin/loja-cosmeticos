@@ -102,10 +102,6 @@
 	background-color: #f2f7f7;
 }
 
-.menu__botao:checked ~ i {
-	color: red;
-}
-
 .menu__botao:checked ~ .lista-menu {
 	display: inline-block;
 }
